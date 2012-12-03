@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47D8774153122A0000D3473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8773153122A0000D3473 /* UIKit.framework */; };
+		A47D8776153122A0000D3473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8775153122A0000D3473 /* Foundation.framework */; };
+		A47D8778153122A0000D3473 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8777153122A0000D3473 /* CoreGraphics.framework */; };
+		A47D877E153122A0000D3473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A47D877C153122A0000D3473 /* InfoPlist.strings */; };
+		A47D8780153122A0000D3473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D877F153122A0000D3473 /* main.m */; };
+		A47D8784153122A0000D3473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D8783153122A0000D3473 /* AppDelegate.m */; };
+		A47D8787153122A0000D3473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D8786153122A0000D3473 /* ViewController.m */; };
+		A47D878A153122A0000D3473 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D8788153122A0000D3473 /* ViewController.xib */; };
+		A47D8793153122EF000D3473 /* DSDInputSourceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D8792153122EF000D3473 /* DSDInputSourceFactory.m */; };
+		A47D87971531235E000D3473 /* DSDInputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D87961531235E000D3473 /* DSDInputSource.m */; };
+		A47D879A15312500000D3473 /* DSDUSBFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D879915312500000D3473 /* DSDUSBFactory.m */; };
+		A47D879D1531285A000D3473 /* DSDUSB.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D879C1531285A000D3473 /* DSDUSB.m */; };
+		A47D87A0153173CB000D3473 /* DSDDockFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D879F153173CA000D3473 /* DSDDockFactory.m */; };
+		A47D87A31531741B000D3473 /* DSDDock.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D87A21531741B000D3473 /* DSDDock.m */; };
+		A47D87A61531772E000D3473 /* DSDInputSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D87A51531772E000D3473 /* DSDInputSourceManager.m */; };
+		A4D2B9A215318F39007650B4 /* DSDContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2B9A115318F39007650B4 /* DSDContent.m */; };
+		A4D2B9A8153191A8007650B4 /* DSDContentDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2B9A7153191A8007650B4 /* DSDContentDirectory.m */; };
+		A4D2B9AB15319316007650B4 /* DSDComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D2B9AA15319316007650B4 /* DSDComponent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A47D876F153122A0000D3473 /* SampleAbstructFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAbstructFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D8773153122A0000D3473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A47D8775153122A0000D3473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A47D8777153122A0000D3473 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A47D877B153122A0000D3473 /* SampleAbstructFactory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleAbstructFactory-Info.plist"; sourceTree = "<group>"; };
+		A47D877D153122A0000D3473 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A47D877F153122A0000D3473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A47D8781153122A0000D3473 /* SampleAbstructFactory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleAbstructFactory-Prefix.pch"; sourceTree = "<group>"; };
+		A47D8782153122A0000D3473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A47D8783153122A0000D3473 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A47D8785153122A0000D3473 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A47D8786153122A0000D3473 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A47D8789153122A0000D3473 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A47D8791153122EF000D3473 /* DSDInputSourceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDInputSourceFactory.h; path = Factory/DSDInputSourceFactory.h; sourceTree = "<group>"; };
+		A47D8792153122EF000D3473 /* DSDInputSourceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSDInputSourceFactory.m; path = Factory/DSDInputSourceFactory.m; sourceTree = "<group>"; };
+		A47D87951531235E000D3473 /* DSDInputSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDInputSource.h; path = Factory/DSDInputSource.h; sourceTree = "<group>"; };
+		A47D87961531235E000D3473 /* DSDInputSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSDInputSource.m; path = Factory/DSDInputSource.m; sourceTree = "<group>"; };
+		A47D879815312500000D3473 /* DSDUSBFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDUSBFactory.h; path = Factory/DSDUSBFactory.h; sourceTree = "<group>"; };
+		A47D879915312500000D3473 /* DSDUSBFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSDUSBFactory.m; path = Factory/DSDUSBFactory.m; sourceTree = "<group>"; };
+		A47D879B15312859000D3473 /* DSDUSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDUSB.h; path = Factory/DSDUSB.h; sourceTree = "<group>"; };
+		A47D879C1531285A000D3473 /* DSDUSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSDUSB.m; path = Factory/DSDUSB.m; sourceTree = "<group>"; };
+		A47D879E153173CA000D3473 /* DSDDockFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDDockFactory.h; sourceTree = "<group>"; };
+		A47D879F153173CA000D3473 /* DSDDockFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDDockFactory.m; sourceTree = "<group>"; };
+		A47D87A11531741B000D3473 /* DSDDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDDock.h; sourceTree = "<group>"; };
+		A47D87A21531741B000D3473 /* DSDDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDDock.m; sourceTree = "<group>"; };
+		A47D87A41531772E000D3473 /* DSDInputSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDInputSourceManager.h; sourceTree = "<group>"; };
+		A47D87A51531772E000D3473 /* DSDInputSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDInputSourceManager.m; sourceTree = "<group>"; };
+		A4D2B9A015318F39007650B4 /* DSDContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDContent.h; sourceTree = "<group>"; };
+		A4D2B9A115318F39007650B4 /* DSDContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDContent.m; sourceTree = "<group>"; };
+		A4D2B9A6153191A8007650B4 /* DSDContentDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDContentDirectory.h; sourceTree = "<group>"; };
+		A4D2B9A7153191A8007650B4 /* DSDContentDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDContentDirectory.m; sourceTree = "<group>"; };
+		A4D2B9A915319316007650B4 /* DSDComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDComponent.h; sourceTree = "<group>"; };
+		A4D2B9AA15319316007650B4 /* DSDComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDComponent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47D876C153122A0000D3473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D8774153122A0000D3473 /* UIKit.framework in Frameworks */,
+				A47D8776153122A0000D3473 /* Foundation.framework in Frameworks */,
+				A47D8778153122A0000D3473 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47D8764153122A0000D3473 = {
+			isa = PBXGroup;
+			children = (
+				A47D8779153122A0000D3473 /* SampleAbstructFactory */,
+				A47D8772153122A0000D3473 /* Frameworks */,
+				A47D8770153122A0000D3473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47D8770153122A0000D3473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47D876F153122A0000D3473 /* SampleAbstructFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47D8772153122A0000D3473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47D8773153122A0000D3473 /* UIKit.framework */,
+				A47D8775153122A0000D3473 /* Foundation.framework */,
+				A47D8777153122A0000D3473 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A47D8779153122A0000D3473 /* SampleAbstructFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A47D8782153122A0000D3473 /* AppDelegate.h */,
+				A47D8783153122A0000D3473 /* AppDelegate.m */,
+				A47D8790153122B8000D3473 /* DSDAbstructFactory */,
+				A4D2B99F15318F1F007650B4 /* DSDContent */,
+				A47D87941531233B000D3473 /* DSDInputSource */,
+				A47D8785153122A0000D3473 /* ViewController.h */,
+				A47D8786153122A0000D3473 /* ViewController.m */,
+				A47D8788153122A0000D3473 /* ViewController.xib */,
+				A47D877A153122A0000D3473 /* Supporting Files */,
+			);
+			path = SampleAbstructFactory;
+			sourceTree = "<group>";
+		};
+		A47D877A153122A0000D3473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47D877B153122A0000D3473 /* SampleAbstructFactory-Info.plist */,
+				A47D877C153122A0000D3473 /* InfoPlist.strings */,
+				A47D877F153122A0000D3473 /* main.m */,
+				A47D8781153122A0000D3473 /* SampleAbstructFactory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47D8790153122B8000D3473 /* DSDAbstructFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A47D879815312500000D3473 /* DSDUSBFactory.h */,
+				A47D879915312500000D3473 /* DSDUSBFactory.m */,
+				A47D879E153173CA000D3473 /* DSDDockFactory.h */,
+				A47D879F153173CA000D3473 /* DSDDockFactory.m */,
+				A47D8791153122EF000D3473 /* DSDInputSourceFactory.h */,
+				A47D8792153122EF000D3473 /* DSDInputSourceFactory.m */,
+			);
+			name = DSDAbstructFactory;
+			sourceTree = "<group>";
+		};
+		A47D87941531233B000D3473 /* DSDInputSource */ = {
+			isa = PBXGroup;
+			children = (
+				A47D87A41531772E000D3473 /* DSDInputSourceManager.h */,
+				A47D87A51531772E000D3473 /* DSDInputSourceManager.m */,
+				A47D87951531235E000D3473 /* DSDInputSource.h */,
+				A47D87961531235E000D3473 /* DSDInputSource.m */,
+				A47D879B15312859000D3473 /* DSDUSB.h */,
+				A47D879C1531285A000D3473 /* DSDUSB.m */,
+				A47D87A11531741B000D3473 /* DSDDock.h */,
+				A47D87A21531741B000D3473 /* DSDDock.m */,
+			);
+			name = DSDInputSource;
+			sourceTree = "<group>";
+		};
+		A4D2B99F15318F1F007650B4 /* DSDContent */ = {
+			isa = PBXGroup;
+			children = (
+				A4D2B9A015318F39007650B4 /* DSDContent.h */,
+				A4D2B9A115318F39007650B4 /* DSDContent.m */,
+				A4D2B9A6153191A8007650B4 /* DSDContentDirectory.h */,
+				A4D2B9A7153191A8007650B4 /* DSDContentDirectory.m */,
+				A4D2B9A915319316007650B4 /* DSDComponent.h */,
+				A4D2B9AA15319316007650B4 /* DSDComponent.m */,
+			);
+			name = DSDContent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47D876E153122A0000D3473 /* SampleAbstructFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47D878D153122A0000D3473 /* Build configuration list for PBXNativeTarget "SampleAbstructFactory" */;
+			buildPhases = (
+				A47D876B153122A0000D3473 /* Sources */,
+				A47D876C153122A0000D3473 /* Frameworks */,
+				A47D876D153122A0000D3473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAbstructFactory;
+			productName = SampleAbstructFactory;
+			productReference = A47D876F153122A0000D3473 /* SampleAbstructFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47D8766153122A0000D3473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A47D8769153122A0000D3473 /* Build configuration list for PBXProject "SampleAbstructFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A47D8764153122A0000D3473;
+			productRefGroup = A47D8770153122A0000D3473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47D876E153122A0000D3473 /* SampleAbstructFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47D876D153122A0000D3473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D877E153122A0000D3473 /* InfoPlist.strings in Resources */,
+				A47D878A153122A0000D3473 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47D876B153122A0000D3473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D8780153122A0000D3473 /* main.m in Sources */,
+				A47D8784153122A0000D3473 /* AppDelegate.m in Sources */,
+				A47D8787153122A0000D3473 /* ViewController.m in Sources */,
+				A47D8793153122EF000D3473 /* DSDInputSourceFactory.m in Sources */,
+				A47D87971531235E000D3473 /* DSDInputSource.m in Sources */,
+				A47D879A15312500000D3473 /* DSDUSBFactory.m in Sources */,
+				A47D879D1531285A000D3473 /* DSDUSB.m in Sources */,
+				A47D87A0153173CB000D3473 /* DSDDockFactory.m in Sources */,
+				A47D87A31531741B000D3473 /* DSDDock.m in Sources */,
+				A47D87A61531772E000D3473 /* DSDInputSourceManager.m in Sources */,
+				A4D2B9A215318F39007650B4 /* DSDContent.m in Sources */,
+				A4D2B9A8153191A8007650B4 /* DSDContentDirectory.m in Sources */,
+				A4D2B9AB15319316007650B4 /* DSDComponent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A47D877C153122A0000D3473 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D877D153122A0000D3473 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A47D8788153122A0000D3473 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D8789153122A0000D3473 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47D878B153122A0000D3473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A47D878C153122A0000D3473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47D878E153122A0000D3473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleAbstructFactory/SampleAbstructFactory-Prefix.pch";
+				INFOPLIST_FILE = "SampleAbstructFactory/SampleAbstructFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A47D878F153122A0000D3473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleAbstructFactory/SampleAbstructFactory-Prefix.pch";
+				INFOPLIST_FILE = "SampleAbstructFactory/SampleAbstructFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47D8769153122A0000D3473 /* Build configuration list for PBXProject "SampleAbstructFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D878B153122A0000D3473 /* Debug */,
+				A47D878C153122A0000D3473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47D878D153122A0000D3473 /* Build configuration list for PBXNativeTarget "SampleAbstructFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D878E153122A0000D3473 /* Debug */,
+				A47D878F153122A0000D3473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A47D8766153122A0000D3473 /* Project object */;
+}
